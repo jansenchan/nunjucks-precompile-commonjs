@@ -1,0 +1,28 @@
+{
+  "name": "nunjucks-precompile-commonjs",
+  "version": "0.0.1",
+  "description": "Nunjucks precompile CommonJs wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdatou/nunjucks-precompile-commonjs.git"
+  },
+  "keywords": [
+    "nunjucks",
+    "precompile",
+    "wrapper",
+    "commonjs"
+  ],
+  "peerDependencies": {
+    "nunjucks": "^3.0.1"
+  },
+  "author": "cdatou <chen.zsheng@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdatou/nunjucks-precompile-commonjs/issues"
+  },
+  "homepage": "https://github.com/cdatou/nunjucks-precompile-commonjs#readme"
+}
