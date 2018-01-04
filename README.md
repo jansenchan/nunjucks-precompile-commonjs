@@ -1,5 +1,7 @@
 # nunjucks precompile commonjs
 
+[![Build Status](https://travis-ci.org/cdatou/nunjucks-precompile-commonjs.svg?branch=master)](https://travis-ci.org/cdatou/nunjucks-precompile-commonjs)
+
 ## precompile
 
 ``` javascript
