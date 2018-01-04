@@ -1,3 +1,8 @@
+/**
+ * @file nunjuncks commonjs wrapper
+ * @author cdatou <chen.zsheng@gmail.com>
+ */
+
 'use strict';
 
 function precompileWrapper(templates, opts) {
@@ -9,11 +14,11 @@ function precompileWrapper(templates, opts) {
     for (var i = 0; i < templates.length; i++) {
         tpl = templates[i];
         name = JSON.stringify(tpl.name);
-        tplStr = templates.template;
+        tplStr = tpl.template;
 
         output += [
             'module.exports[' + name + '] = ',
-            '(function() {\n' + template + '\n})();\n'
+            '(function() {\n' + tplStr + '\n})();\n'
         ].join('')
     }
 

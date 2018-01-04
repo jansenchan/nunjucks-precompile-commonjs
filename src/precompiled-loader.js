@@ -1,3 +1,8 @@
+/**
+ * @file nunjuncks commonjs PrecompiledLoader
+ * @author cdatou <chen.zsheng@gmail.com>
+ */
+
 'use strict';
 
 var path = require('path').posix;
